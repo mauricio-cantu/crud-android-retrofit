@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mauriciocantu.prova4iretrofit.SaveActivity">
+
+    <EditText
+        android:id="@+id/et_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:hint="Nome"
+        android:inputType="textPersonName"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/et_cpf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/et_nome"
+        android:layout_below="@+id/et_nome"
+        android:layout_marginTop="33dp"
+        android:ems="10"
+        android:hint="CPF"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_telefone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/et_cpf"
+        android:layout_below="@+id/et_cpf"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:hint="Telefone"
+        android:inputType="textPersonName" />
+
+    <Spinner
+        android:id="@+id/sp_estados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rg_sexo"
+        android:layout_alignParentStart="true" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/rg_sexo"
+        android:layout_below="@+id/et_telefone"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:id="@+id/rb_masc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Masculino" />
+
+        <RadioButton
+            android:id="@+id/rb_fem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Feminino" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/cb_tecnico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="Técnico"
+        android:layout_below="@+id/sp_estados"
+        android:layout_toStartOf="@+id/cb_sup_comp"
+        android:layout_marginEnd="12dp" />
+
+    <CheckBox
+        android:id="@+id/cb_sup_comp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/rg_sexo"
+        android:layout_alignTop="@+id/cb_tecnico"
+        android:text="Superior comp." />
+
+    <CheckBox
+        android:id="@+id/cb_sup_incomp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/cb_sup_comp"
+        android:layout_marginEnd="16dp"
+        android:text="Sup. incom." />
+
+    <Button
+        android:id="@+id/bt_concluir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="concluir"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/cb_tecnico"
+        android:layout_toStartOf="@+id/rg_sexo" />
+
+    <Button
+        android:id="@+id/bt_deletar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="deletar"
+        android:visibility="invisible"
+        android:layout_alignBaseline="@+id/bt_concluir"
+        android:layout_alignBottom="@+id/bt_concluir"
+        android:layout_toEndOf="@+id/cb_sup_comp" />
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/mauriciocantu/AndroidStudioProjects/prova4iretrofit/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.0"
+        sha1="d7b2a9bc56802b45ce87df34ad3628883b3c2024">
+        <dex dex="/home/mauriciocantu/AndroidStudioProjects/prova4iretrofit/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8efca9cde9cb4801bd7904206894c32f156118e1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mauriciocantu/.android/build-cache/6d259b5dde468ec1cb31bd8a562a45a9116ebb03/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/mauriciocantu/AndroidStudioProjects/prova4iretrofit/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_213e2a197f9a0063638a642a1d6c6668f7726c3f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mauriciocantu/android-sdk-linux/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/mauriciocantu/AndroidStudioProjects/prova4iretrofit/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_77699af6090dafe765fb9883c17ca0cc714c68f1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mauriciocantu/AndroidStudioProjects/prova4iretrofit/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/home/mauriciocantu/AndroidStudioProjects/prova4iretrofit/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1d94d7fccb0d415ff8de7acaacb91031dd26ff45/classes.dex" />
+    </item>
+
+</items>
